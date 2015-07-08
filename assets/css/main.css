@@ -2583,8 +2583,9 @@
 			}
 
 		#header h1 {
+			margin: 1em 0 0;
+			line-height: 1.3;
 			font-size: 2.5em;
-			margin: 0;
 		}
 
 		#header p {
@@ -2597,7 +2598,7 @@
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #EF2C5D;
 		color: rgba(255, 255, 255, 0.8);
 		padding: calc(460px + 6em) 0 10em 0;
 		position: relative;
@@ -2637,7 +2638,7 @@
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
+			color: #333;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -2740,6 +2741,11 @@
 				font-size: 1.25em;
 			}
 
+			.color {
+				font-size: 1.2em;
+				color: #EF2C5D;
+			}
+
 		/* Header */
 
 			#header {
@@ -2750,9 +2756,15 @@
 					font-size: 2.25em;
 				}
 
+				#header h2 {
+					margin-top: 0;
+					font-size: 2.25em;
+					line-height: 1.2
+				}
+
 				#header p {
 					font-size: 1.25em;
-					line-height: 1.65em;
+					line-height: 1.45em;
 				}
 
 	}
