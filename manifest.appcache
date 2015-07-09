@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+CACHE:
+assets/css/main.css
+http://larueblanche-ensatt.fr/assets/css/images/overlay.png
+http://larueblanche-ensatt.fr/images/header.jpg
+images/classes.jpg
+images/mains.jpg
+images/verres.jpg
+img/logo-rue-blanche-ensatt.png
+
+NETWORK:
+*
