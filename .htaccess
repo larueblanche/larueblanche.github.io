@@ -218,6 +218,9 @@ AddType application/octet-stream       safariextz
   
   <IfModule mod_headers.c>
     Header append Cache-Control "public"
+  </IfModule>
+
+<IfModule mod_headers.c>
     ## CUSTOM CODE
     # Header set Access-Control-Allow-Origin "*"
     Header set Access-Control-Allow-Origin: http://fendzy.com
@@ -239,7 +242,7 @@ AddType application/octet-stream       safariextz
     Header set X-XSS-Protection "1; mode=block"
     ## END CUSTOM CODE
   </IfModule>
-  
+
 </IfModule>
 
 ## EXPIRES CACHING ##
